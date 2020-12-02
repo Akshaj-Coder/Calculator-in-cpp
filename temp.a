@@ -1,0 +1,21 @@
+    switch (op) {
+        case '+':
+        cout << "Your sum is: "<< num1 + num2;
+        break;
+
+        case '-':
+        cout << "Your answer is: "<< num1 - num2;
+        break;
+
+        case '*':
+        cout << "Your product is: "<< num1 * num2;
+        break;
+
+        case '/':
+        cout << "Your Quotient is: " << num1/num2;
+        break;
+
+        case 5:
+        cout << "Error! please enter a valid input";
+        break;
+    }
